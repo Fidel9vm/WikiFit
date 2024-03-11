@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    background-image: url(img/fondo.png);
+    background-size: 140%;
+    text-align: center;
+    color: white;
+}
+
+#backexs {
+    display: none;
+}
+
+img{
+    width: 100%;
+    
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    position: fixed;
+    background-color:#480048;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.inicio {
+    display: flex;
+    margin-left: 10px;
+}
+
+
+.btn {
+    color: white;
+    font-weight: bold;
+    background-color:#b818b0;
+    margin: 5px;
+}
+
+.btn:hover{
+    border-color: white;
+}
+
+.contenido .btn:hover {
+    background-color: none;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    transition: all 0.4s;
+}
+
+.wikifit {
+    padding-top: 6px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.contenido {
+    background-color: #000000;
+    padding: 3% 3%;
+    margin-inline: 15%;
+}
+
+footer {
+    background-color: #480048;
+    height: 150px;
+}
+
+p {
+    font-size: 130%;
+}
+
+h1 {
+    font-size: 350%;
+}
+
+h2 {
+    font-size: 300%;
+}
+
+h3 {
+    font-size: 200%;
+}
+
+section {
+    margin: 5% 0;
+    background-color:#a20f5b;
+    padding: 3% 3%;
+    border-radius: 40px;
+}
+
+.info {
+    background-color:#a20f5b;
+    padding: 3% 3%;
+    border-radius: 40px;
+}
+
+.mus {
+    background-color:#a20f5b;
+    padding: 3% 3%;
+    border-radius: 40px;
+}
+
+.rut {
+    margin: 5% 0;
+    background-color:#a20f5b;
+    padding: 3% 3%;
+    border-radius: 40px;
+}
+
+.intg {
+    background-color:#a20f5b;
+    padding: 3% 3%;
+    border-radius: 40px;
+}
+
+article {
+    justify-content: center;
+    margin-bottom: 5%;
+    padding: 1% 4% 3% 4%;
+    background-color: #480048;
+    border-radius: 40px;
+}
+
+article p{
+    justify-content: center;
+}
+
+article img{
+    justify-content: center;
+    width: 95%;
+    margin-bottom: 1%;
+}
+
+.ejercicio {
+   padding: 2%;
+
+}
